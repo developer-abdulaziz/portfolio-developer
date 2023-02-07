@@ -357,6 +357,9 @@ input {
     width: 461px;
     height: 64px;
 }
+textarea {
+    padding: 14px;
+}
 .form_btn a {
     background: var(--orangeColor);
     padding: 10px 30px;
