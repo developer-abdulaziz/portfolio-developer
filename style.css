@@ -135,3 +135,51 @@ nav ul button {
     border: none;
      color: #FFFFFF;
 }
+
+/*========== about section  =======*/
+.about {
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.about_discription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.about_title {
+    text-align: center;
+}
+.about_title h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    padding-bottom: 10px;
+}
+.about_title p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+.about_info_container {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+.about_info::first-line{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+.about_info p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
